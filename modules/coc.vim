@@ -11,7 +11,6 @@ call timer_start(500,'CocTimerStart',{'repeat':1})
    \ 'coc-css',
    \ 'coc-cssmodules',
    \ 'coc-diagnostic',
-   \ 'coc-emmet',
    \ 'coc-emoji',
    \ 'coc-explorer',
    \ 'coc-floaterm',
@@ -34,6 +33,7 @@ call timer_start(500,'CocTimerStart',{'repeat':1})
    \ 'coc-yaml',
    \ 'coc-yank',
    \ ]
+"    \ 'coc-emmet',
 
 let g:coc_data_home='~/.config/nvim/coc'
 

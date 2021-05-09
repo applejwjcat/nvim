@@ -51,7 +51,7 @@ exec "nohlsearch"
 
 "set python host
 " let g:python3_host_skip_check=1
-let g:python3_host_prog = '/home/tristan/.local/software/anaconda3/bin/python'
+let g:python3_host_prog = '/usr/local/anaconda3/bin/python'
 let g:node_host_prog = '/usr/lib/node_modules/neovim/bin/cli.js'
 " 打开文件自动定位到最后编辑的位置
 autocmd BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | execute "normal! g'\"" | endif
